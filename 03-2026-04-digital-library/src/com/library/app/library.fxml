@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.library.app.LibraryController" prefHeight="500.0" prefWidth="600.0">
+    <TextField fx:id="titleField" layoutX="20.0" layoutY="20.0" promptText="Title" />
+    <TextField fx:id="authorField" layoutX="20.0" layoutY="60.0" promptText="Author" />
+    <TextField fx:id="yearField" layoutX="20.0" layoutY="100.0" promptText="Publication Year" />
+    <TextField fx:id="genreField" layoutX="20.0" layoutY="140.0" promptText="Genre" />
+    <Button layoutX="20.0" layoutY="180.0" text="Add Novel" onAction="#handleAddNovel" />
+    <Button layoutX="110.0" layoutY="180.0" text="Save to File" onAction="#handleSave" />
+    <Label fx:id="displayLabel" layoutX="20.0" layoutY="230.0" />
+</AnchorPane>
