@@ -12,7 +12,7 @@ public class GUI extends Application {
         FXMLLoader loader = new FXMLLoader(GUI.class.getResource("/com/academy/login.fxml"));
         Scene scene = new Scene(loader.load(), 500, 450);
 
-        stage.setTitle("Login ITS Umbria Academy");
+        stage.setTitle("Login");
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();

@@ -16,7 +16,7 @@
             <Insets bottom="30" left="30" right="30" top="30" />
         </padding>
 
-        <Label style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;" text="ITS Umbria Academy" />
+        <Label style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;" text="Login" />
 
         <Label style="-fx-text-fill: #dfe9f3; -fx-font-size: 13px;" text="Accesso area riservata" />
 
